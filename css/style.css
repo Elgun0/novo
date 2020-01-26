@@ -1,0 +1,142 @@
+#all-menu {
+  padding: 15px 0;
+  position: fixed;
+  color: #fff;
+  z-index: 10;
+}
+
+#all-menu .middle span {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 280px;
+}
+
+#all-menu .right .ul1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#all-menu .right .ul1 > li {
+  position: relative;
+  padding: 5px 14px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+#all-menu .right .ul1 > li:hover {
+  color: #c48f56;
+}
+
+#all-menu .right .ul1 > li:hover .hid-menu {
+  visibility: visible;
+}
+
+#all-menu .right .ul1 .hid-menu {
+  position: absolute;
+  left: 10%;
+  top: 100%;
+  z-index: 5;
+  background-color: black;
+  width: 200px;
+  border: 1px solid #616161;
+  visibility: hidden;
+}
+
+#all-menu .right .ul1 .hid-menu li {
+  padding: 10px 25px;
+  border-bottom: 1px solid #616161;
+}
+
+#all-menu .right .ul1 i {
+  padding: 8px 8px;
+}
+
+#main {
+  background: url(../photo/project12-1024x676.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 60px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+}
+
+#main .roteyt {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  color: #fff;
+}
+
+#main .roteyt::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -22px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  margin-top: -2px;
+  background-color: #c48f56;
+}
+
+#main .roteyt span {
+  padding: 0px 15px;
+  cursor: pointer;
+  color: #ddd;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#main .roteyt span:hover {
+  color: #c48f56;
+}
+
+#main .text {
+  color: #fff;
+}
+
+#main .text p {
+  padding: 20px 0;
+}
+
+#main .text button {
+  background: transparent;
+  border: none;
+  color: #c48f56;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+#main .text button:hover {
+  color: #fff;
+}
+
+#main .text .span {
+  padding: 20px 0;
+}
+
+#main .text .span span {
+  margin: 0 10px;
+  padding: 5px 7px;
+  border-radius: 50%;
+  border: 1px solid #575757;
+}
+
+#main .text .span span:first-child {
+  border: 1px solid #c48f56;
+}
+/*# sourceMappingURL=style.css.map */
